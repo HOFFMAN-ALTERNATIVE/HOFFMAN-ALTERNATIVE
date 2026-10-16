@@ -37,4 +37,6 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 
 ## 📬 Contact
 
-Contacts: coming soon
+[![Email](https://img.shields.io/badge/Email-blackdmn666%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:blackdmn666@gmail.com)
+
+Open for freelance projects. Write to discuss your task.
