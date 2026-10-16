@@ -39,6 +39,7 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 
 | Project | What it is | |
 |---|---|---|
+| [**event-driven-microservices**](https://github.com/HOFFMAN-ALTERNATIVE/event-driven-microservices) | Go microservices over NATS JetStream: transactional outbox, idempotent consumers, saga with compensation, DLQ + replay, one OpenTelemetry trace across async hops | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/event-driven-microservices/actions/workflows/ci.yml/badge.svg) |
 | [**distributed-rate-limiter**](https://github.com/HOFFMAN-ALTERNATIVE/distributed-rate-limiter) | Go rate limiter library + HTTP service: token bucket & sliding-window log, atomic Redis Lua scripts, net/http middleware, Prometheus — exactness tested across replicas | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/distributed-rate-limiter/actions/workflows/ci.yml/badge.svg) |
 | [**logscope**](https://github.com/HOFFMAN-ALTERNATIVE/logscope) | Rust CLI to tail, filter and aggregate JSON / logfmt / nginx logs: query language, top-N, exact p50–p99 latency, follow mode | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/logscope/actions/workflows/ci.yml/badge.svg) |
 | [**universal-testing-toolkit**](https://github.com/HOFFMAN-ALTERNATIVE/universal-testing-toolkit) | Point-and-shoot QA suite for any site: Playwright E2E on 5 browsers/devices, API contracts, axe a11y, visual regression, Lighthouse CI, k6 load, OWASP ZAP | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/universal-testing-toolkit/actions/workflows/ci.yml/badge.svg) |
