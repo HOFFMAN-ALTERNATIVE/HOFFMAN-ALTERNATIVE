@@ -39,6 +39,7 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 
 | Project | What it is | |
 |---|---|---|
+| [**crdt-collab**](https://github.com/HOFFMAN-ALTERNATIVE/crdt-collab) · [▶ live demo](https://hoffman-alternative.github.io/crdt-collab/) | Realtime collaborative text + whiteboard on a from-scratch CRDT (RGA + LWW): WebSocket sync server, presence, offline merge, fast-check convergence proofs | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/crdt-collab/actions/workflows/ci.yml/badge.svg) |
 | [**event-driven-microservices**](https://github.com/HOFFMAN-ALTERNATIVE/event-driven-microservices) | Go microservices over NATS JetStream: transactional outbox, idempotent consumers, saga with compensation, DLQ + replay, one OpenTelemetry trace across async hops | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/event-driven-microservices/actions/workflows/ci.yml/badge.svg) |
 | [**distributed-rate-limiter**](https://github.com/HOFFMAN-ALTERNATIVE/distributed-rate-limiter) | Go rate limiter library + HTTP service: token bucket & sliding-window log, atomic Redis Lua scripts, net/http middleware, Prometheus — exactness tested across replicas | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/distributed-rate-limiter/actions/workflows/ci.yml/badge.svg) |
 | [**logscope**](https://github.com/HOFFMAN-ALTERNATIVE/logscope) | Rust CLI to tail, filter and aggregate JSON / logfmt / nginx logs: query language, top-N, exact p50–p99 latency, follow mode | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/logscope/actions/workflows/ci.yml/badge.svg) |
