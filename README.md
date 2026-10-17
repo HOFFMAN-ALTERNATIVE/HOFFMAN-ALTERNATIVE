@@ -35,6 +35,10 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-F7B93E?style=for-the-badge&logoColor=black)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
@@ -42,6 +46,7 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 
 | Project | What it is | |
 |---|---|---|
+| [**gitops-helm-demo**](https://github.com/HOFFMAN-ALTERNATIVE/gitops-helm-demo) | GitOps reference: security-hardened Helm chart promoted dev → staging → prod by an Argo CD app-of-apps (sync waves, least-privilege AppProject, no auto-prune in prod) — helm-unittest, kubeconform, chart-testing on kind, live Argo CD sync + self-heal drill in CI | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/gitops-helm-demo/actions/workflows/ci.yml/badge.svg) |
 | [**cpu-rag-pipeline**](https://github.com/HOFFMAN-ALTERNATIVE/cpu-rag-pipeline) | Local CPU-only RAG: heading-aware chunking, deterministic hashing + pluggable embeddings, float32/int8 vector store, BM25 + dense hybrid via RRF, cited answers — retrieval metrics (hit@k, MRR, nDCG) gated in CI, mypy strict, 99% coverage | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/cpu-rag-pipeline/actions/workflows/ci.yml/badge.svg) |
 | [**ebpf-netmon**](https://github.com/HOFFMAN-ALTERNATIVE/ebpf-netmon) | eBPF network monitor in Go (cilium/ebpf): cgroup_skb per-flow IPv4/IPv6 accounting in an LRU map, top-talkers CLI, bounded-cardinality Prometheus exporter — verifier + attach tested on a real kernel in CI | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/ebpf-netmon/actions/workflows/ci.yml/badge.svg) |
 | [**terraform-modules**](https://github.com/HOFFMAN-ALTERNATIVE/terraform-modules) | Reusable Terraform modules (naming/tagging, multi-AZ VPC with NAT modes + flow logs, TLS-only encrypted S3) with secure defaults — 26 `terraform test` runs on mocked providers, tflint, Terraform 1.9 + 1.12 matrix | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/terraform-modules/actions/workflows/ci.yml/badge.svg) |
