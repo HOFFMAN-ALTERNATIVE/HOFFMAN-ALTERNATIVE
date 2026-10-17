@@ -19,6 +19,8 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js_WebGPU-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Telegram](https://img.shields.io/badge/aiogram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
@@ -39,6 +41,8 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 
 | Project | What it is | |
 |---|---|---|
+| [**webgpu-hud**](https://github.com/HOFFMAN-ALTERNATIVE/webgpu-hud) · [▶ live demo](https://hoffman-alternative.github.io/webgpu-hud/) | Volumetric cyberpunk tactical HUD on three.js WebGPURenderer + TSL node materials with automatic WebGL 2 fallback: holographic radar, GPU particles, bloom, simulated telemetry, reduced-motion aware | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/webgpu-hud/actions/workflows/ci.yml/badge.svg) |
+| [**zero-trust-gateway**](https://github.com/HOFFMAN-ALTERNATIVE/zero-trust-gateway) | BeyondCorp-style identity-aware proxy in Go: OIDC/JWT with JWKS rotation, PKCE login, deny-by-default YAML policy, mTLS 1.3 upstreams, signed sessions, JSON audit log, threat model | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/zero-trust-gateway/actions/workflows/ci.yml/badge.svg) |
 | [**crdt-collab**](https://github.com/HOFFMAN-ALTERNATIVE/crdt-collab) · [▶ live demo](https://hoffman-alternative.github.io/crdt-collab/) | Realtime collaborative text + whiteboard on a from-scratch CRDT (RGA + LWW): WebSocket sync server, presence, offline merge, fast-check convergence proofs | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/crdt-collab/actions/workflows/ci.yml/badge.svg) |
 | [**event-driven-microservices**](https://github.com/HOFFMAN-ALTERNATIVE/event-driven-microservices) | Go microservices over NATS JetStream: transactional outbox, idempotent consumers, saga with compensation, DLQ + replay, one OpenTelemetry trace across async hops | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/event-driven-microservices/actions/workflows/ci.yml/badge.svg) |
 | [**distributed-rate-limiter**](https://github.com/HOFFMAN-ALTERNATIVE/distributed-rate-limiter) | Go rate limiter library + HTTP service: token bucket & sliding-window log, atomic Redis Lua scripts, net/http middleware, Prometheus — exactness tested across replicas | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/distributed-rate-limiter/actions/workflows/ci.yml/badge.svg) |
