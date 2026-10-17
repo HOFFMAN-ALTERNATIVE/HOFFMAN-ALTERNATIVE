@@ -35,12 +35,14 @@ local LLMs running on plain CPUs (no GPU, no cloud bills), and infrastructure th
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ## 🚀 Featured projects
 
 | Project | What it is | |
 |---|---|---|
+| [**terraform-modules**](https://github.com/HOFFMAN-ALTERNATIVE/terraform-modules) | Reusable Terraform modules (naming/tagging, multi-AZ VPC with NAT modes + flow logs, TLS-only encrypted S3) with secure defaults — 26 `terraform test` runs on mocked providers, tflint, Terraform 1.9 + 1.12 matrix | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/terraform-modules/actions/workflows/ci.yml/badge.svg) |
 | [**webgpu-hud**](https://github.com/HOFFMAN-ALTERNATIVE/webgpu-hud) · [▶ live demo](https://hoffman-alternative.github.io/webgpu-hud/) | Volumetric cyberpunk tactical HUD on three.js WebGPURenderer + TSL node materials with automatic WebGL 2 fallback: holographic radar, GPU particles, bloom, simulated telemetry, reduced-motion aware | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/webgpu-hud/actions/workflows/ci.yml/badge.svg) |
 | [**zero-trust-gateway**](https://github.com/HOFFMAN-ALTERNATIVE/zero-trust-gateway) | BeyondCorp-style identity-aware proxy in Go: OIDC/JWT with JWKS rotation, PKCE login, deny-by-default YAML policy, mTLS 1.3 upstreams, signed sessions, JSON audit log, threat model | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/zero-trust-gateway/actions/workflows/ci.yml/badge.svg) |
 | [**crdt-collab**](https://github.com/HOFFMAN-ALTERNATIVE/crdt-collab) · [▶ live demo](https://hoffman-alternative.github.io/crdt-collab/) | Realtime collaborative text + whiteboard on a from-scratch CRDT (RGA + LWW): WebSocket sync server, presence, offline merge, fast-check convergence proofs | ![ci](https://github.com/HOFFMAN-ALTERNATIVE/crdt-collab/actions/workflows/ci.yml/badge.svg) |
