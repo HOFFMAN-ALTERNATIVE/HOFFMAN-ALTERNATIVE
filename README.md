@@ -74,4 +74,4 @@ I write down the decisions that are expensive to reverse, keep secrets out of re
 
 ## Contact
 
-Email: [blackdmn666@gmail.com](mailto:blackdmn666@gmail.com). Open to freelance and contract work. Send a short description of the problem and I will reply with a plan, a timeline and a price.
+Email: [blackdmn666@gmail.com](mailto:blackdmn666@gmail.com). Kwork: [kwork.com/user/herman88](https://kwork.com/user/herman88). Open to freelance and contract work. Send a short description of the problem and I will reply with a plan, a timeline and a price.
